@@ -4,7 +4,7 @@ from binance.client import Client
 import os
 
 # Ganti dengan API bot Telegram Anda
-TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+TELEGRAM_BOT_TOKEN = '7749381087:AAG7CgTC853g5AendRr3wz68yHaVWDaYS34'
 
 # Ganti dengan API Binance Anda (bisa pakai kosong untuk hanya akses publik)
 binance_client = Client(api_key='', api_secret='')
