@@ -24,7 +24,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Halo! Kirim /price untuk melihat harga BTC/USDT.")
 
 # Inisialisasi bot
-app = ApplicationBuilder().token(TELEGRAM_BOT_TOKEN).build()
+app = ApplicationBuilder().token(7749381087:AAG7CgTC853g5AendRr3wz68yHaVWDaYS34).build()
 
 # Handler
 app.add_handler(CommandHandler("start", start))
